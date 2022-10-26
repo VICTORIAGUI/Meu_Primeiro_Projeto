@@ -1,0 +1,20 @@
+.cor{
+    color: red;
+}
+
+#carro{
+    color: aqua;
+}
+
+#p-font { 
+    /* alteração do estilo de letra */
+   font-family:'Courier New', Courier, monospace ;
+   /* mudar tamanho da font */
+   font-size: 50px;
+/* peso da fonte (grossura, negrito) */
+   font-weight: bold;
+   /* estilo de letra */
+   font-style:italic;
+   /* alimanhento de texto */
+   text-align: center;
+}

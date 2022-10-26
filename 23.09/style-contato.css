@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    color: #fff;
+    border: none;
+    list-style: none;
+}
+
+body {
+    background-color: #a40505;
+}
+
+header {
+    background-color: black;
+}
+
+#blood-vi {
+    margin: auto;
+    display: block;
+}
+
+main {
+    background-color: #a40505;
+    border-color: black;
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
+    color: #fff
+}
+
+.menu-nav {
+    display: flex
+}
+
+.nav-list {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botao-nav {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    width: 100px;
+    height: 80px;
+}
+
+
+.botao-nav:hover {
+    background-color: black;
+    color: #a40505;
+    font-size: 30px;
+}
+
+a {
+    text-decoration-line: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #a40505;    
+}
+
+#contato-container {
+    background-color: #000;
+    opacity: 0.9;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label,
+input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    border-bottom: 3px solid #a40505;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 3px solid #fff;
+}
+
+#esqueceu-senha {
+    text-align: center;
+}
+
+#botao-enviar {
+    display: inline-flex;
+}
+
+#botao-enviar {
+    background-color: #a40505;
+    opacity: 0.9;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 200px;
+    height: 60px;
+    border-left: 5px;
+    border-radius: 10px;
+}
+
+#botao-enviar:hover {
+    background-color: #fff;
+    color: #000;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.rede-social img:hover {
+    width: 100px;
+    transition: 0.7s;
+}
+
+footer {
+    background-color: #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#topo {
+    display: flex;
+    justify-content: center;
+}
+
+#p-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#p-footer {
+    width: 100%;
+    color: #fff;
+}
+
+#p-footer a {
+    font-weight: bold;
+    text-align: justify;
+    color: #fff;
+    text-decoration: none;
+}
+
+#p-footer a:hover {
+    background-color: #000;
+    font-weight: bold;
+    text-align: justify;
+    color: #a40505;
+    text-decoration: none;
+}

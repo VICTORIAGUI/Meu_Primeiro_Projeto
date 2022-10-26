@@ -1,0 +1,53 @@
+@media (min-width:310px) and (max-width:320px) {
+    body {
+        background-color: gray;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-image: url(./background.jpg);
+        width: 50em;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .botao-nav {
+        background-image: url(./background.jpg);
+        color: white;
+        font-family: fontera;
+        font-size: 40px;
+        width: auto;
+        height: ;
+    }
+    #logo-text {
+        width: ;
+    }
+}
+
+@media (min-width:321px) and (max-width:375px) {
+    body {}
+}
+
+@media (min-width:376px) and (max-width:425px) {
+    body {}
+}
+
+@media (min-width:426px) and (max-width:768px) {
+    body {}
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    body {}
+}
+
+@media (win-width:1025px) and (max-width:1440px) {
+    body {}
+}
+
+@media (min-width:1441px) and (max-width:2560px) {
+    body {}
+}

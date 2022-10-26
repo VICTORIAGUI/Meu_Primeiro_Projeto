@@ -1,0 +1,30 @@
+button {
+    /* Margem do topo */
+    margin-top: 100px;
+    /* Margem da esquerda pra direita */
+    margin-left: 300px;
+    /* Margem da direita pra esquerda */
+    margin-right: 100px;
+    /* Margem do fundo */
+
+}
+
+#botao-espacamento {
+    background-color: red;
+    /* atalho para criação de margem */
+    margin: 0;
+    /* padding-top: 200px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 200px; */
+    /* se eu quero o mesmo espaçamento em toda margem, eu posso utilizar padding:100px; */
+    padding:200px 20px;
+}
+
+#botao-boder:hover{
+    border:none;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+

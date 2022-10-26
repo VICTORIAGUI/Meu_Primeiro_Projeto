@@ -1,0 +1,82 @@
+@font-face {
+    font-family: fontera;
+    src: url(./fonte.ttf);
+}
+
+header {
+    background-image: url(./background.jpg);
+}
+
+#logo-text {
+    margin: auto;
+    display: block;
+}
+
+body {
+    background-color: darkgrey;
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.botao-nav {
+    background-image: url(./background.jpg);
+    color: white;
+    font-family: fontera;
+    font-size: 30px;
+    width: auto;
+    height: 80px;
+}
+
+.botao-nav:hover {
+    background-color: black;
+    color: green;
+    font-size: 35px;
+}
+
+h1,
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: fontera;
+    font-size: 40px;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+#joaninha {
+    width: 330px;
+    margin: auto;
+    display: block;
+}
+
+p {
+    font-family: fontera;
+    font-size: 23px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+footer {
+    background-image: url(./background.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color:white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color:royalblue;
+}
